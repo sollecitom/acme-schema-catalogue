@@ -27,4 +27,5 @@ fun includeProject(name: String) {
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 schemata("avro", "common")
+schemata("avro", "modulith-example")
 schemata("json", "common")
