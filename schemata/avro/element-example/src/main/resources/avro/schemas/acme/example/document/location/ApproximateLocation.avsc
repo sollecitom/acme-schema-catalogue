@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "namespace": "acme.example.document.location",
+  "name": "ApproximateLocation",
+  "fields": [
+    {
+      "name": "from",
+      "type": "acme.example.document.location.PositionInPage"
+    },
+    {
+      "name": "to",
+      "type": "acme.example.document.location.PositionInPage"
+    }
+  ]
+}

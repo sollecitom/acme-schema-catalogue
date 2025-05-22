@@ -1,0 +1,18 @@
+{
+  "type": "record",
+  "namespace": "acme.example.compliance.plan",
+  "name": "CompliancePlanEntityReference",
+  "fields": [
+    {
+      "name": "envelope_type",
+      "type": "acme.common.entity.EntityReferenceType"
+    },
+    {
+      "name": "envelope",
+      "type": [
+        "acme.example.compliance.plan.CompliancePlan",
+        "acme.common.entity.IdAndCustomerEntityReference"
+      ]
+    }
+  ]
+}

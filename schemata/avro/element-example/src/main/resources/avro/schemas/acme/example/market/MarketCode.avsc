@@ -1,0 +1,8 @@
+{
+  "type": "enum",
+  "namespace": "acme.example.market",
+  "name": "MarketCode",
+  "symbols": [
+    "US_MEDICAL_DEVICES"
+  ]
+}

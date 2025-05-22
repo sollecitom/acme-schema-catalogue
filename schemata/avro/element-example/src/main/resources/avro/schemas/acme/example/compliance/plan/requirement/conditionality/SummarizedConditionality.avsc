@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "namespace": "acme.example.compliance.plan.requirement.conditionality",
+  "name": "SummarizedConditionality",
+  "fields": [
+    {
+      "name": "summary",
+      "type": "string"
+    }
+  ]
+}

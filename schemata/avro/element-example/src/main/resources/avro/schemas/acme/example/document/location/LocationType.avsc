@@ -1,0 +1,8 @@
+{
+  "type": "enum",
+  "namespace": "acme.example.document.location",
+  "name": "LocationType",
+  "symbols": [
+    "APPROXIMATE"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "namespace": "acme.example.compliance.plan.standard.device",
+  "name": "WholeDevice",
+  "fields": [
+    {
+      "name": "code",
+      "type": "acme.example.compliance.plan.standard.device.WholeDeviceCode"
+    }
+  ]
+}

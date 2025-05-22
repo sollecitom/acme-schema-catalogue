@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "namespace": "acme.example.compliance.plan.entitlement",
+  "name": "Entitlement",
+  "fields": [
+    {
+      "name": "code",
+      "type": "acme.example.compliance.plan.entitlement.EntitlementCode"
+    }
+  ]
+}

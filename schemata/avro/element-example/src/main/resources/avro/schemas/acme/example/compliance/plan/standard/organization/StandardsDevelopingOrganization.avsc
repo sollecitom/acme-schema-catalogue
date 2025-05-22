@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "namespace": "acme.example.compliance.plan.standard.organization",
+  "name": "StandardsDevelopingOrganization",
+  "fields": [
+    {
+      "name": "code",
+      "type": "acme.example.compliance.plan.standard.organization.StandardsDevelopingOrganizationCode"
+    }
+  ]
+}

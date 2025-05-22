@@ -1,0 +1,11 @@
+{
+  "type": "enum",
+  "namespace": "acme.example.compliance.plan.requirement.verification",
+  "name": "Method",
+  "symbols": [
+    "TEST",
+    "MEASUREMENT",
+    "DOCUMENTATION_INSPECTION",
+    "PRODUCT_INSPECTION"
+  ]
+}

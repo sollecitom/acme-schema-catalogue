@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "namespace": "acme.example.standard.document",
+  "name": "Format",
+  "fields": [
+    {
+      "name": "code",
+      "type": "string"
+    }
+  ]
+}

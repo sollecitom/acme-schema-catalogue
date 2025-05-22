@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "namespace": "acme.example.compliance.plan.subject",
+  "name": "DeviceSubject",
+  "fields": [
+    {
+      "name": "device",
+      "type": "acme.example.device.Device"
+    }
+  ]
+}

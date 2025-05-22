@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "namespace": "acme.example.compliance.plan.requirement.verification",
+  "name": "VerificationRequirements",
+  "fields": [
+    {
+      "name": "method",
+      "type": "acme.example.compliance.plan.requirement.verification.Method"
+    }
+  ]
+}

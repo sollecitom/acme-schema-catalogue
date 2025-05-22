@@ -1,0 +1,21 @@
+{
+  "type": "record",
+  "namespace": "acme.example.compliance.plan.event",
+  "name": "CompliancePlanEventData",
+  "fields": [
+    {
+      "name": "envelope_type",
+      "type": "string"
+    },
+    {
+      "name": "envelope",
+      "type": [
+        "acme.example.compliance.plan.event.StandardsAnalysisCompleted",
+        "acme.example.compliance.plan.event.StandardsOutputsAvailable",
+        "acme.example.compliance.plan.event.RequirementsAnalysisCompleted",
+        "acme.example.compliance.plan.event.RequirementsOutputsAvailable",
+        "acme.example.compliance.plan.event.ApplicableRequirementsOutputsAvailable"
+      ]
+    }
+  ]
+}

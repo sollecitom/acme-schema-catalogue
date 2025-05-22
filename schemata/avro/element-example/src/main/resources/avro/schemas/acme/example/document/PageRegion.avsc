@@ -1,0 +1,10 @@
+{
+  "type": "enum",
+  "namespace": "acme.example.document",
+  "name": "PageRegion",
+  "symbols": [
+    "TOP",
+    "MIDDLE",
+    "BOTTOM"
+  ]
+}

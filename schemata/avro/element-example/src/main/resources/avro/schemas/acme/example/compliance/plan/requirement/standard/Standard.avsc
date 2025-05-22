@@ -1,0 +1,37 @@
+{
+  "type": "record",
+  "namespace": "acme.example.compliance.plan.requirement.standard",
+  "name": "Standard",
+  "fields": [
+    {
+      "name": "reference",
+      "type": "string"
+    },
+    {
+      "name": "publication_date",
+      "type": "acme.common.time.MonthAndYear"
+    },
+    {
+      "name": "language",
+      "type": "acme.example.standard.document.Language"
+    },
+    {
+      "name": "format",
+      "type": "acme.example.standard.document.Format"
+    },
+    {
+      "name": "edition",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "type",
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  ]
+}

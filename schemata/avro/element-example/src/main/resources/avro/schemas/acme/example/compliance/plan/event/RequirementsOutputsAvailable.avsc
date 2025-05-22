@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "namespace": "acme.example.compliance.plan.event",
+  "name": "RequirementsOutputsAvailable",
+  "fields": [
+    {
+      "name": "compliance_plan",
+      "type": "acme.example.compliance.plan.CompliancePlan"
+    }
+  ]
+}

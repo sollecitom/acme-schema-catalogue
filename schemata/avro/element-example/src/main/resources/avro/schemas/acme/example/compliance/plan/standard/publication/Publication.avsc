@@ -1,0 +1,25 @@
+{
+  "type": "record",
+  "namespace": "acme.example.compliance.plan.standard.publication",
+  "name": "Publication",
+  "fields": [
+    {
+      "name": "publishers",
+      "type": {
+        "type": "array",
+        "items": "acme.example.compliance.plan.standard.organization.StandardsDevelopingOrganization"
+      }
+    },
+    {
+      "name": "date",
+      "type": "acme.common.time.MonthAndYear"
+    },
+    {
+      "name": "edition",
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "type": "record",
+  "namespace": "acme.example.compliance.plan.requirement",
+  "name": "Requirement",
+  "fields": [
+    {
+      "name": "id",
+      "type": "acme.common.identity.Id"
+    },
+    {
+      "name": "clause",
+      "type": "acme.example.compliance.plan.requirement.standard.Clause"
+    },
+    {
+      "name": "location",
+      "type": "acme.example.document.location.Location"
+    },
+    {
+      "name": "is_mandatory",
+      "type": "boolean"
+    },
+    {
+      "name": "summary",
+      "type": "string"
+    },
+    {
+      "name": "conditionality",
+      "type": [
+        "null",
+        "acme.example.compliance.plan.requirement.conditionality.Conditionality"
+      ]
+    },
+    {
+      "name": "verification_requirements",
+      "type": [
+        "null",
+        "acme.example.compliance.plan.requirement.verification.VerificationRequirements"
+      ]
+    }
+  ]
+}

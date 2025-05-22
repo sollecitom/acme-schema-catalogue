@@ -1,0 +1,18 @@
+{
+  "type": "enum",
+  "namespace": "acme.example.compliance.plan.standard.organization",
+  "name": "StandardsDevelopingOrganizationCode",
+  "symbols": [
+    "IEC",
+    "ISO",
+    "ASTM",
+    "UL",
+    "AAMI",
+    "IEEE",
+    "ANSI",
+    "AIM",
+    "ETSI",
+    "USP",
+    "CEN"
+  ]
+}

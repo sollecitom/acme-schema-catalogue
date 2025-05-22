@@ -1,0 +1,17 @@
+{
+  "type": "record",
+  "namespace": "acme.example.document.location",
+  "name": "Location",
+  "fields": [
+    {
+      "name": "envelope_type",
+      "type": "acme.example.document.location.LocationType"
+    },
+    {
+      "name": "envelope",
+      "type": [
+        "acme.example.document.location.ApproximateLocation"
+      ]
+    }
+  ]
+}

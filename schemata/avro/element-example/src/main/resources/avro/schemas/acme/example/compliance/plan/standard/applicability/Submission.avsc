@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "namespace": "acme.example.compliance.plan.standard.applicability",
+  "name": "Submission",
+  "fields": [
+    {
+      "name": "value",
+      "type": "string"
+    }
+  ]
+}

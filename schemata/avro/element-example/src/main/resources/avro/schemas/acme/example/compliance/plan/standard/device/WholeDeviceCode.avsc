@@ -1,0 +1,8 @@
+{
+  "type": "enum",
+  "namespace": "acme.example.compliance.plan.standard.device",
+  "name": "WholeDeviceCode",
+  "symbols": [
+    "WHOLE_DEVICE"
+  ]
+}

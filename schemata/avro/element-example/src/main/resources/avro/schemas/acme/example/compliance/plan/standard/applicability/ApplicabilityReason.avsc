@@ -1,0 +1,20 @@
+{
+  "type": "record",
+  "namespace": "acme.example.compliance.plan.standard.applicability",
+  "name": "ApplicabilityReason",
+  "fields": [
+    {
+      "name": "envelope_type",
+      "type": "string"
+    },
+    {
+      "name": "envelope",
+      "type": [
+        "acme.example.compliance.plan.standard.applicability.EssentialPrinciple",
+        "acme.example.compliance.plan.standard.applicability.NotifiedBodyOperationsGroup",
+        "acme.example.compliance.plan.standard.applicability.ProductCode",
+        "acme.example.compliance.plan.standard.applicability.Submission"
+      ]
+    }
+  ]
+}

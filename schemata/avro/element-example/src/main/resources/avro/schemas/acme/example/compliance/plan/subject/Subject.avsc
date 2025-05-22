@@ -1,0 +1,17 @@
+{
+  "type": "record",
+  "namespace": "acme.example.compliance.plan.subject",
+  "name": "Subject",
+  "fields": [
+    {
+      "name": "envelope_type",
+      "type": "string"
+    },
+    {
+      "name": "envelope",
+      "type": [
+        "acme.example.compliance.plan.subject.DeviceSubject"
+      ]
+    }
+  ]
+}

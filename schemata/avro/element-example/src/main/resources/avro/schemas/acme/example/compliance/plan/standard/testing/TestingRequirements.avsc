@@ -1,0 +1,14 @@
+{
+  "type": "record",
+  "namespace": "acme.example.compliance.plan.standard.testing",
+  "name": "TestingRequirements",
+  "fields": [
+    {
+      "name": "recommended_test_houses",
+      "type": {
+        "type": "array",
+        "items": "acme.example.compliance.plan.standard.testing.TestHouse"
+      }
+    }
+  ]
+}

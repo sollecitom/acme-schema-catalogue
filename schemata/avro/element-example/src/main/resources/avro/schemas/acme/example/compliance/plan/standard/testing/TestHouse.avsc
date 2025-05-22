@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "namespace": "acme.example.compliance.plan.standard.testing",
+  "name": "TestHouse",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string"
+    }
+  ]
+}

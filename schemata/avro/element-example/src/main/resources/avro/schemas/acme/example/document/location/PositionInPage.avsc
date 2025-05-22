@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "namespace": "acme.example.document.location",
+  "name": "PositionInPage",
+  "fields": [
+    {
+      "name": "page",
+      "type": "acme.example.document.Page"
+    },
+    {
+      "name": "region",
+      "type": "acme.example.document.PageRegion"
+    }
+  ]
+}

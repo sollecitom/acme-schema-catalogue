@@ -28,4 +28,5 @@ enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 schemata("avro", "common")
 schemata("avro", "modulith-example")
+schemata("avro", "element-example")
 schemata("json", "common")

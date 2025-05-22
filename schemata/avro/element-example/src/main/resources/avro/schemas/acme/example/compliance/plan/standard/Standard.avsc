@@ -1,0 +1,70 @@
+{
+  "type": "record",
+  "namespace": "acme.example.compliance.plan.standard",
+  "name": "Standard",
+  "fields": [
+    {
+      "name": "reference",
+      "type": "acme.example.compliance.plan.standard.reference.Reference"
+    },
+    {
+      "name": "publication",
+      "type": "acme.example.compliance.plan.standard.publication.Publication"
+    },
+    {
+      "name": "title",
+      "type": "string"
+    },
+    {
+      "name": "abstract",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "type",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "testing_requirements",
+      "type": [
+        "null",
+        "acme.example.compliance.plan.standard.testing.TestingRequirements"
+      ]
+    },
+    {
+      "name": "device_key_functional_elements",
+      "type": {
+        "type": "array",
+        "items": "acme.example.compliance.plan.standard.device.KeyFunctionalElement"
+      }
+    },
+    {
+      "name": "applicability_reasons",
+      "type": {
+        "type": "array",
+        "items": "acme.example.compliance.plan.standard.applicability.ApplicabilityReason"
+      }
+    },
+    {
+      "name": "language",
+      "type": "acme.example.standard.document.Language"
+    },
+    {
+      "name": "format",
+      "type": "acme.example.standard.document.Format"
+    },
+    {
+      "name": "applicability_explanation",
+      "type": [
+        "null",
+        "string"
+      ],
+      "default": null
+    }
+  ]
+}

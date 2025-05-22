@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "namespace": "acme.example.compliance.plan.standard.applicability",
+  "name": "NotifiedBodyOperationsGroup",
+  "fields": [
+    {
+      "name": "value",
+      "type": "string"
+    }
+  ]
+}

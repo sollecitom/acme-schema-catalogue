@@ -1,0 +1,38 @@
+{
+  "type": "record",
+  "namespace": "acme.example.compliance.plan",
+  "name": "CompliancePlan",
+  "fields": [
+    {
+      "name": "id",
+      "type": "acme.common.identity.Id"
+    },
+    {
+      "name": "subject",
+      "type": "acme.example.compliance.plan.subject.Subject"
+    },
+    {
+      "name": "customer",
+      "type": "acme.common.correlation.customer.Customer"
+    },
+    {
+      "name": "created_at",
+      "type": "acme.common.time.Timestamp"
+    },
+    {
+      "name": "entitlements",
+      "type": {
+        "type": "array",
+        "items": "acme.example.compliance.plan.entitlement.Entitlement"
+      }
+    },
+    {
+      "name": "market",
+      "type": "acme.example.market.Market"
+    },
+    {
+      "name": "creator",
+      "type": "acme.example.user.User"
+    }
+  ]
+}

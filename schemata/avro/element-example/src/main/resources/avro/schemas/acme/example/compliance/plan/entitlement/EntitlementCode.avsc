@@ -1,0 +1,10 @@
+{
+  "type": "enum",
+  "namespace": "acme.example.compliance.plan.entitlement",
+  "name": "EntitlementCode",
+  "symbols": [
+    "STANDARDS",
+    "REQUIREMENTS",
+    "APPLICABLE_REQUIREMENTS"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "namespace": "acme.example.compliance.plan.event",
+  "name": "CompliancePlanEvent",
+  "fields": [
+    {
+      "name": "data",
+      "type": "acme.example.compliance.plan.event.CompliancePlanEventData"
+    },
+    {
+      "name": "metadata",
+      "type": "acme.common.event.EventMetadata"
+    }
+  ]
+}

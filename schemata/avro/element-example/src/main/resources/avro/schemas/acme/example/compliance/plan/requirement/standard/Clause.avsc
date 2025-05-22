@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "namespace": "acme.example.compliance.plan.requirement.standard",
+  "name": "Clause",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "standard",
+      "type": "acme.example.compliance.plan.requirement.standard.Standard"
+    }
+  ]
+}

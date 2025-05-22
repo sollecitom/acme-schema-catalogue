@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "namespace": "acme.example.document",
+  "name": "Page",
+  "fields": [
+    {
+      "name": "number",
+      "type": "int"
+    }
+  ]
+}

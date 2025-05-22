@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "namespace": "acme.example.market",
+  "name": "Market",
+  "fields": [
+    {
+      "name": "code",
+      "type": "acme.example.market.MarketCode"
+    }
+  ]
+}

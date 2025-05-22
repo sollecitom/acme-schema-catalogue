@@ -1,0 +1,18 @@
+{
+  "type": "record",
+  "namespace": "acme.example.compliance.plan.event",
+  "name": "RequirementsAnalysisCompleted",
+  "fields": [
+    {
+      "name": "compliance_plan",
+      "type": "acme.example.compliance.plan.CompliancePlan"
+    },
+    {
+      "name": "requirements",
+      "type": {
+        "type": "array",
+        "items": "acme.example.compliance.plan.requirement.Requirement"
+      }
+    }
+  ]
+}
