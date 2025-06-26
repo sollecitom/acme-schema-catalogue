@@ -1,10 +1,10 @@
 #!/usr/bin/env just --justfile
 
 push:
-    git add . && git commit -m "WIP" && git push --recurse-submodules=on-demand origin main
+    git add . && git commit -m "WIP" && git push origin main
 
 pull:
-    git submodule update --recursive --remote
+    git pull
 
 build:
     ./gradlew build
@@ -21,5 +21,5 @@ updateGradle:
 updateAll:
     just updateDependencies && just updateGradle
 
-publishLibraries:
+publish:
     ./gradlew build publishToMavenLocal

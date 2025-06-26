@@ -1,7 +1,5 @@
 rootProject.name = "acme-schema-catalogue"
 
-includeBuild("../gradle-plugins")
-
 dependencyResolutionManagement {
     versionCatalogs {
         create("libs") {
