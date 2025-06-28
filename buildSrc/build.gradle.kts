@@ -19,7 +19,6 @@ plugins {
 }
 
 repositories {
-    mavenCentral()
     gradlePluginPortal()
     RepositoryConfiguration.BuildScript.apply(this)
 }
