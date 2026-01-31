@@ -13,7 +13,7 @@
     },
     {
       "name": "hash",
-      "type": "long"
+      "type": "string"
     }
   ]
 }
