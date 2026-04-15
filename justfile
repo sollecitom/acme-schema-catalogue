@@ -12,7 +12,7 @@ pull:
     git pull
 
 build:
-    ./gradlew build
+    ./scripts/publish-if-changed.sh
 
 rebuild:
     ./gradlew --refresh-dependencies --rerun-tasks build
@@ -27,4 +27,4 @@ update-all:
     just update-dependencies && just update-gradle
 
 publish:
-    ./gradlew build publishToMavenLocal
+    ./scripts/publish-if-changed.sh
