@@ -14,6 +14,12 @@ pull:
 build:
     ./gradlew updateInternalCatalogVersions && ./gradlew build
 
+license-audit:
+    bash ../scripts/run-license-audit.sh acme-schema-catalogue
+
+generate-sbom:
+    bash ../scripts/run-generate-sbom.sh acme-schema-catalogue
+
 cleanup:
     bash ../scripts/cleanup-maven-local.sh --repo-root . --keep 5 --max-age-days 30
 
