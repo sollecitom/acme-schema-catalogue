@@ -17,6 +17,9 @@ build:
 license-audit:
     bash ../scripts/run-license-audit.sh acme-schema-catalogue
 
+license-audit-compact:
+    bash ../scripts/run-license-audit.sh acme-schema-catalogue --compact
+
 generate-sbom:
     bash ../scripts/run-generate-sbom.sh acme-schema-catalogue
 
