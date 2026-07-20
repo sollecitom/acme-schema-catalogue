@@ -1,6 +1,6 @@
 [versions]
 # libraries
-kotlin = "2.4.0"
+kotlin = "2.4.10"
 # plugins
 sollecitom-gradle-plugins = "1.0.19"
 palantir-git-plugin = "5.0.0"
