@@ -13,6 +13,7 @@
         "string",
         "ulid",
         "uuid",
+        "uuidv7",
         "ksuid"
       ]
     },

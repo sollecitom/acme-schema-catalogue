@@ -6,6 +6,7 @@
     "STRING",
     "ULID",
     "UUID",
+    "UUIDV7",
     "KSUID"
   ],
   "default": "STRING"
