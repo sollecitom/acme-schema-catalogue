@@ -1,0 +1,26 @@
+{
+  "type": "record",
+  "namespace": "acme.common.encryption",
+  "name": "GcmEncryptionMetadata",
+  "fields": [
+    {
+      "name": "iv_hex",
+      "type": "string"
+    },
+    {
+      "name": "authentication_tag_length_in_bits",
+      "type": "int"
+    },
+    {
+      "name": "associated_data_hex",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "key",
+      "type": "CryptographicKeyMetadata"
+    }
+  ]
+}

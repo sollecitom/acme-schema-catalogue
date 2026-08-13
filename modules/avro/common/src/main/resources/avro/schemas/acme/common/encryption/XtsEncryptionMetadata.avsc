@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "namespace": "acme.common.encryption",
+  "name": "XtsEncryptionMetadata",
+  "fields": [
+    {
+      "name": "tweak_hex",
+      "type": "string"
+    },
+    {
+      "name": "key",
+      "type": "CryptographicKeyMetadata"
+    }
+  ]
+}
