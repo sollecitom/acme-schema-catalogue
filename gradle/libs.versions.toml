@@ -3,7 +3,7 @@
 kotlin = "2.4.10"
 # plugins
 sollecitom-gradle-plugins = "1.0.26"
-palantir-git-plugin = "5.0.0"
+palantir-git-plugin = "5.1.0"
 
 [libraries]
 sollecitom-gradle-plugins-base = { module = "sollecitom.gradle-plugins:base", version.ref = "sollecitom-gradle-plugins" }
