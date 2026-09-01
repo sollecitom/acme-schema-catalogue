@@ -1,0 +1,17 @@
+{
+  "type": "record",
+  "namespace": "acme.common.encryption",
+  "name": "EncryptionMetadata",
+  "fields": [
+    {
+      "name": "envelope_type",
+      "type": "string"
+    },
+    {
+      "name": "envelope",
+      "type": [
+        "acme.common.encryption.GcmEncryptionMetadata"
+      ]
+    }
+  ]
+}
