@@ -2,7 +2,7 @@
 # libraries
 kotlin = "2.4.20"
 # plugins
-sollecitom-gradle-plugins = "1.0.28"
+sollecitom-gradle-plugins = "1.0.29"
 palantir-git-plugin = "5.1.0"
 
 [libraries]
