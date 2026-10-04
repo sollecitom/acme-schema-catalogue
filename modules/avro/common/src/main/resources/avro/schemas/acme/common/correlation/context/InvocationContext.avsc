@@ -20,21 +20,24 @@
       "type": [
         "null",
         "acme.common.locale.Locale"
-      ]
+      ],
+      "default": null
     },
     {
       "name": "specified_target_customer",
       "type": [
         "null",
         "acme.common.correlation.customer.Customer"
-      ]
+      ],
+      "default": null
     },
     {
       "name": "specified_target_tenant",
       "type": [
         "null",
         "acme.common.correlation.tenant.Tenant"
-      ]
+      ],
+      "default": null
     }
   ]
 }

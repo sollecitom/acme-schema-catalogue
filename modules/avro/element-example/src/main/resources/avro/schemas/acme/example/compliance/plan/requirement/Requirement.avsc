@@ -28,14 +28,16 @@
       "type": [
         "null",
         "acme.example.compliance.plan.requirement.conditionality.Conditionality"
-      ]
+      ],
+      "default": null
     },
     {
       "name": "verification_requirements",
       "type": [
         "null",
         "acme.example.compliance.plan.requirement.verification.VerificationRequirements"
-      ]
+      ],
+      "default": null
     }
   ]
 }

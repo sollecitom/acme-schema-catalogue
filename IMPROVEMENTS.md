@@ -7,7 +7,7 @@ Centralized schema repository housing reusable Avro and JSON schema definitions 
 
 | Dimension | Rating | Notes |
 |-----------|--------|-------|
-| Build system | A | Gradle 9.4.0, version catalog, convention plugins |
+| Build system | A | Gradle 9.8.0, version catalog, convention plugins |
 | Code quality | B | Well-organized schemas, clear naming |
 | Test coverage | F | No schema validation tests |
 | Documentation | C | READMEs per module, but no architecture guide |
@@ -16,8 +16,8 @@ Centralized schema repository housing reusable Avro and JSON schema definitions 
 | Maintainability | B+ | Pure schemas, no code — simple to maintain |
 
 ## Structure
-- 4 modules: `avro/common` (77 schemas), `avro/modulith-example`, `avro/element-example`, `json/common` (79 schemas)
-- 150+ schema files total, zero Kotlin source files
+- 4 modules: `avro/common` (63 schemas), `avro/modulith-example` (10), `avro/element-example` (50), `json/common` (59 schemas)
+- 182 schema files total, zero Kotlin source files
 
 ## Issues
 - No schema validation tests (invalid schemas won't be caught at build time)

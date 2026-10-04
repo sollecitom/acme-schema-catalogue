@@ -12,14 +12,16 @@
       "type": [
         "null",
         "acme.common.time.Timestamp"
-      ]
+      ],
+      "default": null
     },
     {
       "name": "valid_to",
       "type": [
         "null",
         "acme.common.time.Timestamp"
-      ]
+      ],
+      "default": null
     }
   ]
 }

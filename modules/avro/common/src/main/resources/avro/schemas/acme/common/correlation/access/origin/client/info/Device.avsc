@@ -8,21 +8,24 @@
       "type": [
         "null",
         "string"
-      ]
+      ],
+      "default": null
     },
     {
       "name": "name",
       "type": [
         "null",
         "string"
-      ]
+      ],
+      "default": null
     },
     {
       "name": "brand",
       "type": [
         "null",
         "string"
-      ]
+      ],
+      "default": null
     }
   ]
 }

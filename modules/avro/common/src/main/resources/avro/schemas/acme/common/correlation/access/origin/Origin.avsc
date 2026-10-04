@@ -8,7 +8,8 @@
       "type": [
         "null",
         "string"
-      ]
+      ],
+      "default": null
     },
     {
       "name": "client_info",

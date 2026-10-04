@@ -20,21 +20,24 @@
       "type": [
         "null",
         "string"
-      ]
+      ],
+      "default": null
     },
     {
       "name": "type",
       "type": [
         "null",
         "string"
-      ]
+      ],
+      "default": null
     },
     {
       "name": "testing_requirements",
       "type": [
         "null",
         "acme.example.compliance.plan.standard.testing.TestingRequirements"
-      ]
+      ],
+      "default": null
     },
     {
       "name": "device_key_functional_elements",

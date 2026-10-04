@@ -12,7 +12,8 @@
       "type": [
         "null",
         "acme.common.locale.Locale"
-      ]
+      ],
+      "default": null
     },
     {
       "name": "customer",

@@ -1,10 +1,10 @@
-# Playground
+# acme-schema-catalogue
 
-A playground to test various things, before spinning them out as separate repositories.
+Reusable Avro and JSON schema definitions for the "Acme" organization, published as libraries.
 
 ## Requirements
 
-1. Java 23 (neither below nor above).
+1. Java 25 (neither below nor above).
 
 ## How to
 
@@ -25,20 +25,20 @@ just rebuild
 ### Upgrade the Gradle wrapper to the latest available version
 
 ```bash
-just updateGradle
+just update-gradle
 
 ```
 
 ### Update all dependencies if more recent versions exist, and remove unused ones (it will update `gradle/libs.versions.toml`)
 
 ```bash
-just updateDependencies
+just update-dependencies
 
 ```
 
-### Publish the libraries to the local Maven repository
+### Publish the libraries to the local Maven repository (only when their artifacts changed)
 
 ```bash
-just publishLibraries
+just publish
 
 ```

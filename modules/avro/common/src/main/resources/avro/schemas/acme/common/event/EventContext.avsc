@@ -12,14 +12,16 @@
       "type": [
         "null",
         "acme.common.event.EventReference"
-      ]
+      ],
+      "default": null
     },
     {
       "name": "originating",
       "type": [
         "null",
         "acme.common.event.EventReference"
-      ]
+      ],
+      "default": null
     }
   ]
 }
