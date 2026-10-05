@@ -3,9 +3,11 @@
   "namespace": "acme.common.currency",
   "name": "Currency",
   "symbols": [
+    "UNKNOWN",
     "GBP",
     "USD",
     "EUR",
     "JPY"
-  ]
+  ],
+  "default": "UNKNOWN"
 }

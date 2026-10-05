@@ -3,6 +3,8 @@
   "namespace": "acme.example.market",
   "name": "MarketCode",
   "symbols": [
+    "UNKNOWN",
     "US_MEDICAL_DEVICES"
-  ]
+  ],
+  "default": "UNKNOWN"
 }

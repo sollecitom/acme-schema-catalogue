@@ -3,8 +3,10 @@
   "namespace": "acme.example.document",
   "name": "PageRegion",
   "symbols": [
+    "UNKNOWN",
     "TOP",
     "MIDDLE",
     "BOTTOM"
-  ]
+  ],
+  "default": "UNKNOWN"
 }

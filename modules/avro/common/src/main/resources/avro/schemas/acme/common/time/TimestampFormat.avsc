@@ -3,7 +3,8 @@
   "namespace": "acme.common.time",
   "name": "TimestampFormat",
   "symbols": [
+    "UNKNOWN",
     "ISO_8601"
   ],
-  "default": "ISO_8601"
+  "default": "UNKNOWN"
 }

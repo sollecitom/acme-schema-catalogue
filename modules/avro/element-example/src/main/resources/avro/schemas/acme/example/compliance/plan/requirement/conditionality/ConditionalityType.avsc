@@ -3,6 +3,8 @@
   "namespace": "acme.example.compliance.plan.requirement.conditionality",
   "name": "ConditionalityType",
   "symbols": [
+    "UNKNOWN",
     "SUMMARIZED"
-  ]
+  ],
+  "default": "UNKNOWN"
 }

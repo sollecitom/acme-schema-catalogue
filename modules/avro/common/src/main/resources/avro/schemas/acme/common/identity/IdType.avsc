@@ -3,11 +3,12 @@
   "namespace": "acme.common.identity",
   "name": "IdType",
   "symbols": [
+    "UNKNOWN",
     "STRING",
     "ULID",
     "UUID",
     "UUIDV7",
     "KSUID"
   ],
-  "default": "STRING"
+  "default": "UNKNOWN"
 }

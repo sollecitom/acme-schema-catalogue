@@ -3,8 +3,10 @@
   "namespace": "acme.example.compliance.plan.entitlement",
   "name": "EntitlementCode",
   "symbols": [
+    "UNKNOWN",
     "STANDARDS",
     "REQUIREMENTS",
     "APPLICABLE_REQUIREMENTS"
-  ]
+  ],
+  "default": "UNKNOWN"
 }

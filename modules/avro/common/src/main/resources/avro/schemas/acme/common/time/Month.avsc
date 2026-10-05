@@ -3,6 +3,7 @@
   "namespace": "acme.common.time",
   "name": "Month",
   "symbols": [
+    "UNKNOWN",
     "JANUARY",
     "FEBRUARY",
     "MARCH",
@@ -15,5 +16,6 @@
     "OCTOBER",
     "NOVEMBER",
     "DECEMBER"
-  ]
+  ],
+  "default": "UNKNOWN"
 }

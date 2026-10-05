@@ -3,6 +3,8 @@
   "namespace": "acme.example.compliance.plan.standard.device",
   "name": "WholeDeviceCode",
   "symbols": [
+    "UNKNOWN",
     "WHOLE_DEVICE"
-  ]
+  ],
+  "default": "UNKNOWN"
 }

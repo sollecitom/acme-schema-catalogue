@@ -3,6 +3,7 @@
   "namespace": "acme.example.compliance.plan.standard.organization",
   "name": "StandardsDevelopingOrganizationCode",
   "symbols": [
+    "UNKNOWN",
     "IEC",
     "ISO",
     "ASTM",
@@ -14,5 +15,6 @@
     "ETSI",
     "USP",
     "CEN"
-  ]
+  ],
+  "default": "UNKNOWN"
 }

@@ -3,9 +3,11 @@
   "namespace": "acme.example.compliance.plan.requirement.verification",
   "name": "Method",
   "symbols": [
+    "UNKNOWN",
     "TEST",
     "MEASUREMENT",
     "DOCUMENTATION_INSPECTION",
     "PRODUCT_INSPECTION"
-  ]
+  ],
+  "default": "UNKNOWN"
 }

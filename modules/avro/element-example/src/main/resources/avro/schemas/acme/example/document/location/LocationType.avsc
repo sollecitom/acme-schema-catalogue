@@ -3,6 +3,8 @@
   "namespace": "acme.example.document.location",
   "name": "LocationType",
   "symbols": [
+    "UNKNOWN",
     "APPROXIMATE"
-  ]
+  ],
+  "default": "UNKNOWN"
 }
