@@ -5,11 +5,10 @@
   "fields": [
     {
       "name": "value",
-      "type": "string"
-    },
-    {
-      "name": "format",
-      "type": "acme.common.time.TimestampFormat"
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-nanos"
+      }
     }
   ]
 }
