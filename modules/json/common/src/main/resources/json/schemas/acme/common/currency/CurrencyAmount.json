@@ -9,7 +9,7 @@
   "properties": {
     "units": {
       "type": "string",
-      "pattern": "^[0-9]+$"
+      "pattern": "^[0-9]{1,100}$"
     },
     "currency": {
       "type": "string",
