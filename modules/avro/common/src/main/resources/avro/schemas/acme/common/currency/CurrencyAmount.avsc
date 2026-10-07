@@ -5,7 +5,12 @@
   "fields": [
     {
       "name": "units",
-      "type": "string"
+      "type": {
+        "type": "bytes",
+        "logicalType": "decimal",
+        "precision": 100,
+        "scale": 0
+      }
     },
     {
       "name": "currency",

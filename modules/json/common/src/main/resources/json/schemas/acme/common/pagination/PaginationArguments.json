@@ -7,7 +7,8 @@
   ],
   "properties": {
     "limit": {
-      "type": "integer"
+      "type": "integer",
+      "minimum": 1
     },
     "continuation-token": {
       "type": "string",

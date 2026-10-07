@@ -4,10 +4,6 @@
   "name": "Reference",
   "fields": [
     {
-      "name": "envelope_type",
-      "type": "string"
-    },
-    {
       "name": "envelope",
       "type": [
         "acme.example.compliance.plan.standard.reference.SimpleReference"

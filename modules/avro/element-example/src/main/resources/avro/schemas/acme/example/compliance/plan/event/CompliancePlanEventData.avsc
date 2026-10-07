@@ -4,10 +4,6 @@
   "name": "CompliancePlanEventData",
   "fields": [
     {
-      "name": "envelope_type",
-      "type": "string"
-    },
-    {
       "name": "envelope",
       "type": [
         "acme.example.compliance.plan.event.StandardsAnalysisCompleted",

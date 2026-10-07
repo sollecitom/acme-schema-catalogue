@@ -1,7 +1,7 @@
 {
   "type": "record",
   "namespace": "acme.modulith_example.account.event",
-  "name": "AccountPlanEvent",
+  "name": "AccountEvent",
   "fields": [
     {
       "name": "data",

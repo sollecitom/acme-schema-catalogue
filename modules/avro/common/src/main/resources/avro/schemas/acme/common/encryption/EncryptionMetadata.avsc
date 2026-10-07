@@ -4,13 +4,10 @@
   "name": "EncryptionMetadata",
   "fields": [
     {
-      "name": "envelope_type",
-      "type": "string"
-    },
-    {
       "name": "envelope",
       "type": [
-        "acme.common.encryption.GcmEncryptionMetadata"
+        "acme.common.encryption.GcmEncryptionMetadata",
+        "acme.common.encryption.XtsEncryptionMetadata"
       ]
     }
   ]

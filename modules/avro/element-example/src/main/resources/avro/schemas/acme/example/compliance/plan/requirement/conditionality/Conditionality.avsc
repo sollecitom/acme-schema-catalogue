@@ -4,10 +4,6 @@
   "name": "Conditionality",
   "fields": [
     {
-      "name": "envelope_type",
-      "type": "acme.example.compliance.plan.requirement.conditionality.ConditionalityType"
-    },
-    {
       "name": "envelope",
       "type": [
         "acme.example.compliance.plan.requirement.conditionality.SummarizedConditionality"

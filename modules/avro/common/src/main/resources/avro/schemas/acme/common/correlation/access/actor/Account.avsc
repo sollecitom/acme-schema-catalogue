@@ -4,10 +4,6 @@
   "name": "Account",
   "fields": [
     {
-      "name": "envelope_type",
-      "type": "string"
-    },
-    {
       "name": "envelope",
       "type": [
         "acme.common.correlation.access.actor.UserAccount",

@@ -18,6 +18,10 @@
     {
       "name": "scope",
       "type": "acme.common.correlation.access.scope.AccessScope"
+    },
+    {
+      "name": "is_test",
+      "type": "boolean"
     }
   ]
 }

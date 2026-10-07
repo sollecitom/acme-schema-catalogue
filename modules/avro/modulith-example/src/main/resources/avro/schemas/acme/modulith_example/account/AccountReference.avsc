@@ -4,10 +4,6 @@
   "type": "record",
   "fields": [
     {
-      "name": "envelope_type",
-      "type": "string"
-    },
-    {
       "name": "envelope",
       "type": [
         "acme.modulith_example.account.InternalAccountNumber"
